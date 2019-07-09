@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="137" height="28" viewBox="0 0 137 28">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-size: 28px;
+      }
+
+      .cls-2 {
+        text-anchor: middle;
+      }
+
+      .cls-3 {
+        fill: #fefefe;
+        font-family: "RobotoSlab-Bold";
+        font-weight: bold;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #65e496;
+      }
+
+      .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        fill: #44444f;
+      }
+    </style>
+  </defs>
+  <g>
+    <text x="88" y="23" class="cls-1"><tspan class="cls-2"><tspan class="cls-3">BUK<tspan class="cls-4">EE</tspan></tspan></tspan></text>
+    <g>
+      <path d="M28.000,27.999 L-0.000,-0.001 L28.000,-0.001 L28.000,27.999 Z" class="cls-5"/>
+      <path d="M28.000,-0.001 L-0.000,27.999 L-0.000,-0.001 L28.000,-0.001 Z" class="cls-6"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,185 @@
+body{
+    font-family: 'Open Sans' 'Roboto';
+    margin: 0; 
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: url(../img/fon.png) no-repeat center top / cover;
+}
+.container{
+    width: 1234px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    margin-top: 50px;    
+}
+/* Begin menu */
+.header-list{
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+    margin-bottom: 0;
+   
+}
+.header-list__item a{
+    font-size: 16px;
+    font-family: "Open Sans regular";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+.header-list__item{
+   display: block;
+}
+/* Finish menu */
+/* Begin header book */
+.blok-book{
+    margin-top: 181px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.blok-book__img{
+    background: url(../img/book.svg);
+    width: 68%;
+    height: 641px;
+    overflow: hidden;
+    margin-bottom: 160px;
+}
+.blok-text{
+    margin-left: 93px;
+    margin-right: 99px;
+    width: 102%;
+}
+.book__img-title{
+    margin-bottom: 0;
+    margin-top: 118px;
+    font-size: 36px;
+    font-family: "RobotoSlab Bold 700";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;    
+}
+.book__img-text{
+    margin-bottom: 0px;
+    margin-top: 14px;
+    font-size: 14px;
+    font-family: "Open Sans Regular";
+    color: rgb(101, 228, 150);
+    line-height: 1.714;
+    text-align: center;    
+  }
+  .book__img-text-small{
+    margin: 398px 0px 0px 85px;
+    font-size: 14px;
+    font-family: "Open Sans Regular";
+    color: rgb(101, 228, 150);
+    line-height: 1.714;
+  }
+.blok-text_name{
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    font-family: "Open Sans Regular";
+    color: rgb(255, 255, 255);
+    line-height: 2.444;
+}
+.blok-text__title{
+    margin: 25px 0px 0px 0px;
+    font-size: 48px;
+    font-family: "RobotoSlab Bold 700";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+}
+.blok-text_content_green{
+    margin: 20px 0px 14px 0px;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(101, 228, 150);
+    line-height: 2.444;
+}
+.blok-text_content{
+    margin: 34px 0px 0px 0px;
+    font-size: 18px;
+    font-family: "Open Sans Regular";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+.blok-text__btm{
+    margin: 49px 0px 22px 0px;
+    background-color: #65e4b0;
+    width: 250px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(255, 255, 255);
+    line-height: 2.8;
+    text-decoration: none;
+    display: block;
+}
+.blok-text__small{
+    font-size: 12px;
+    font-family: "Open Sans Regular"; 
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.833;
+}
+/* Finish header */
+.blok__author_name{
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    font-family: "Open Sans Regular";
+    color:#7d7d91;
+    line-height: 2.444;
+}
+.blok__author__title{
+    margin: 25px 0px 0px 0px;
+    font-size: 48px;
+    font-family: "RobotoSlab Bold 700";
+    color:#44444f;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.917;
+}
+.blok__author_content_green{
+    margin: 20px 0px 14px 0px;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(101, 228, 150);
+    line-height: 2.444;
+}
+.blok__author_content{
+    margin: 34px 0px 0px 0px;
+    font-size: 18px;
+    font-family: "Open Sans Regular";
+    color:#7d7d91;
+    line-height: 1.6;
+}
+.blok__author__btm{
+    margin: 49px 0px 22px 0px;
+    background-color: #65e4b0;
+    width: 250px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(255, 255, 255);
+    line-height: 2.8;
+    text-decoration: none;
+    display: block;
+}
