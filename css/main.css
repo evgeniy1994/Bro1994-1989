@@ -1,5 +1,4 @@
 body{
-    font-family: 'Open Sans' 'Roboto';
     margin: 0; 
     padding: 0;
 }
@@ -64,7 +63,7 @@ header{
     margin-bottom: 0;
     margin-top: 118px;
     font-size: 36px;
-    font-family: "RobotoSlab Bold 700";
+    font-family: "Roboto Slab";
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
@@ -97,7 +96,7 @@ header{
 .blok-text__title{
     margin: 25px 0px 0px 0px;
     font-size: 48px;
-    font-family: "RobotoSlab Bold 700";
+    font-family: "Roboto Slab";
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
@@ -106,7 +105,7 @@ header{
 .blok-text_content_green{
     margin: 20px 0px 14px 0px;
     font-size: 18px;
-    font-family: "RobotoSlab";
+    font-family: "Roboto Slab";
     color: rgb(101, 228, 150);
     line-height: 2.444;
 }
@@ -125,7 +124,7 @@ header{
     border-radius: 3px;
     text-align: center;
     font-size: 18px;
-    font-family: "RobotoSlab";
+    font-family: "Roboto Slab";
     color: rgb(255, 255, 255);
     line-height: 2.8;
     text-decoration: none;
@@ -139,6 +138,21 @@ header{
     line-height: 1.833;
 }
 /* Finish header */
+section2{
+    background-color: #fff;
+    width: 100%;
+}
+.blok-author-photo{
+    width: 100%;
+    margin: 160px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.blok__author{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
 .blok__author_name{
     margin: 0px 0px 0px 0px;
     font-size: 18px;
@@ -149,16 +163,15 @@ header{
 .blok__author__title{
     margin: 25px 0px 0px 0px;
     font-size: 48px;
-    font-family: "RobotoSlab Bold 700";
+    font-family: "Roboto Slab";
     color:#44444f;
     font-weight: bold;
-    text-transform: uppercase;
     line-height: 0.917;
 }
 .blok__author_content_green{
     margin: 20px 0px 14px 0px;
     font-size: 18px;
-    font-family: "RobotoSlab";
+    font-family: "Roboto Slab";
     color: rgb(101, 228, 150);
     line-height: 2.444;
 }
@@ -177,9 +190,21 @@ header{
     border-radius: 3px;
     text-align: center;
     font-size: 18px;
-    font-family: "RobotoSlab";
+    font-family: "Roboto Slab";
     color: rgb(255, 255, 255);
     line-height: 2.8;
     text-decoration: none;
     display: block;
+}
+.blok__photo{
+    height: 557px;
+    width: 436px;
+    background: linear-gradient(to bottom right, #446a87, #59c3ae);   
+}
+.blok__photo-img{
+    margin-top: 46px;
+    margin-left: -46px;
+    margin-right: 46px;
+    width: 442px;
+    height: 469px;
 }

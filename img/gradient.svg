@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="435" height="558" viewBox="0 0 435 558">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44444f;
+        filter: url(#gradient-overlay-1);
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="0" y="0" width="435" height="558" preserveAspectRatio="none" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDM1IiBoZWlnaHQ9IjU1OCI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjM0My4wNzQiIHkxPSI0OTYuNSIgeDI9IjkxLjkyNiIgeTI9IjYxLjUiPgogIDxzdG9wIG9mZnNldD0iTmFOIiBzdG9wLWNvbG9yPSIjNWFjYWIxIi8+CiAgPHN0b3Agb2Zmc2V0PSJJbmZpbml0eSIgc3RvcC1jb2xvcj0iIzQyNjM4NCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <rect width="435" height="558" class="cls-1"/>
+</svg>
