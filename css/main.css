@@ -1,4 +1,5 @@
 body{
+    font-family: 'Segoe UI', "Roboto Slab", 'Open Sans',  sans-serif;
     margin: 0; 
     padding: 0;
 }
@@ -207,4 +208,30 @@ section2{
     margin-right: 46px;
     width: 442px;
     height: 469px;
+}
+.wrapper-blok__statistics{
+    margin: 80px 0px 160px 0px;
+    display: flex;
+    justify-content: center;
+}
+.blok__statistics{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.blok__number{
+    margin: 0px;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Roboto Slab Thin";
+    color: rgb(101, 228, 157);
+    line-height: 1.55;
+}
+.blok__number-text{
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(105, 105, 128);
+    line-height: 0,5;
 }
